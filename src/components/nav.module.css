@@ -1,0 +1,15 @@
+.navContainer {
+  display: flex;
+  background-color: #828382;
+  padding: 10px;
+  justify-content: space-between; /* 서로 동일한 간격을 두고 띄움 가로*/
+  align-items: center; /* 중앙에 위치시킴 (세로) */
+}
+
+.navLog {
+  width: 120px;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
