@@ -3,7 +3,7 @@
   --font-white: #cccccc;
 }
 
-.homeDiv {
+.loginDiv {
   display: flex;
   background-color: var(--black-color);
   width: 100%;
@@ -12,23 +12,12 @@
   align-items: center;
 }
 
-.imgDiv {
-  padding-bottom: 200px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.loginForm {
 }
 
-.homeImg {
-  justify-content: center;
-}
-
-.homeH1 {
+.loginH1 {
   color: var(--font-white);
   font-family: "Noto Sans KR", sans-serif;
   text-align: center;
   font-size: 3em;
-}
-
-.startBtn {
 }
