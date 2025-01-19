@@ -1,6 +1,11 @@
+:root {
+  --black-color: #1b1b1b;
+  --font-white: #cccccc;
+}
+
 .navContainer {
   display: flex;
-  background-color: #1b1b1b;
+  background-color: var(--black-color);
   justify-content: space-between; /* 서로 동일한 간격을 두고 띄움 가로*/
   align-items: center; /* 중앙에 위치시킴 (세로) */
   padding-left: 20px;
@@ -12,4 +17,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.logBtn {
+  /* 디자인은 추후 변경 */
 }

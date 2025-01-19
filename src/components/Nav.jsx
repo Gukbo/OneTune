@@ -9,10 +9,10 @@ export default function Nav() {
   return (
     <div className={styles.navContainer}>
       <div className={styles.navLogo}>
-        <img src={logo} alt="logo" width="240px" />
+        <img src={logo} alt="logo" width={240} height={100} />
       </div>
       <div className={styles.navLog}>
-        <button>{loginState}</button>
+        <button className={styles.logBtn}>{loginState}</button>
       </div>
     </div>
   );
