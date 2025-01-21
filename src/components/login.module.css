@@ -13,6 +13,11 @@
 }
 
 .loginForm {
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .loginH1 {
@@ -20,4 +25,24 @@
   font-family: "Noto Sans KR", sans-serif;
   text-align: center;
   font-size: 3em;
+}
+
+.loginSpan {
+  color: var(--font-white);
+  font-weight: bold;
+  padding-right: 40px;
+  font-size: 1em;
+}
+
+.IdForm,
+.PwForm {
+  width: 60%;
+  height: 22px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.loginInput {
+  width: 40%;
+  height: 22px;
 }
