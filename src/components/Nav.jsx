@@ -16,7 +16,12 @@ export default function Nav() {
       </div>
       <div className={styles.navLog}>
         <button className={styles.logBtn}>
-          <Link to="/login">{loginState}</Link>
+          <Link
+            to="/login"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            {loginState}
+          </Link>
         </button>
       </div>
     </div>

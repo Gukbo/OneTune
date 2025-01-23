@@ -15,7 +15,12 @@ export default function Home() {
         />
         <h1 className={styles.homeH1}>"One Tune" 에서 애창곡을 기록하세요.</h1>
         <button className={styles.startBtn}>
-          <Link to="/playList">저장</Link>
+          <Link
+            to="/playList"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            저장
+          </Link>
         </button>
       </div>
     </div>
